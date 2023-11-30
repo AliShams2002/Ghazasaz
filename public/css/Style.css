@@ -35,10 +35,10 @@ html{
     transition: 0.3s;
 }
 .list-nav li a:hover{
-    color: #e67e22;
+    color: var(--primery);
 }
 .list-nav li:last-child{
-    background-color: #e67e22;
+    background-color: var(--primery);
     border-radius: 10px;
     transition: 0.3s;
     padding: 1.2rem 3.2rem;
@@ -120,7 +120,7 @@ html{
     cursor: pointer;
 }
 .btn--full{
-    background-color: #e67e22;
+    background-color: var(--primery);
     color: #fff;
 }
 .btn--full:hover{
@@ -160,7 +160,7 @@ html{
     color: #333;
 }
 .delivered-text span{
-    color: #e67e22;
+    color: var(--primery);
 }
 
 /*------------------
@@ -199,7 +199,7 @@ html{
 }
 .work-title span{
     font-size: 1.8rem;
-    color: #e67e22;
+    color: var(--primery);
     letter-spacing: 1.5px;
 }
 .work-title h2{
@@ -269,7 +269,7 @@ html{
 }
 .title-section span{
     font-size: 1.8rem;
-    color: #e67e22;
+    color: var(--primery);
 }
 .title-section h2{
     font-size: 4.4rem;
@@ -330,7 +330,7 @@ html{
     color: #333;
 }
 .icon{
-    color: #e67e22;
+    color: var(--primery);
 }
 .rgyme-food-item h3{
     font-size: 3rem;
@@ -347,7 +347,7 @@ html{
 .list-icon {
     width: 3rem;
     height: 3rem;
-    color: #e67e22;
+    color: var(--primery);
 }
 .list-item {
     font-size: 1.8rem;
@@ -388,7 +388,7 @@ html{
 .testimonial-title span{
     font-size: 1.8rem;
     font-weight: 500;
-    color: #e67e22;
+    color: var(--primery);
 }
 .testimonial-title h2{
     font-size: 4.4rem;
@@ -510,7 +510,7 @@ html{
     background-color: #fdf2e9;
     border-radius: 50%;
     margin-bottom: 1.8rem;
-    color: #e67e22;
+    color: var(--primery);
 }
 .feature-title{
     font-size: 2rem;
@@ -536,7 +536,7 @@ html{
     box-shadow: 0 2.4rem 2.4rem rgba(0,0,0,0.15);
     border-radius: 9px;
 
-    background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+    background-image: linear-gradient(to right bottom, #eb984e, var(--primery));
     overflow: hidden;
 }
 .cta-text-box{
